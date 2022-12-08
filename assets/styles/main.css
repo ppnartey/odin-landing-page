@@ -1,0 +1,145 @@
+/*
+ main css file for typography,fonts,layout
+ */
+ :root {
+  box-sizing: border-box;
+ }
+ *,
+ *::before,
+ *::after {
+  box-sizing: inherit;
+ }
+
+ body {
+  margin: 0;
+  padding: 0;
+ }
+
+ .container {
+  margin: 0 auto; 
+  width: 55%;
+ }
+
+ header,
+ footer {
+  background: #1F2937;
+ }
+ h1 {
+  font-size:medium;
+ }
+ h1, h2 {
+  color: #FAF9F8;
+ }
+ .hero-banner p {
+  color:antiquewhite;
+ }
+
+ .hero-banner {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+ }
+
+ .banner-info {
+  padding-bottom: 50px;
+ }
+
+ .img-placeholder {
+  width: 300px;
+  height: 100px;
+  background: #E5E7EB;
+  color: #fff;
+ }
+
+ .top-header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+ }
+ .nav-links ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size:small;
+  align-items: flex-end;
+ }
+
+ .nav-links ul li a {
+    display: block;
+    padding: .5em 1em;
+    margin: .5em;
+    color: #fff;  
+    text-decoration: none;
+ }
+ 
+ button {
+  padding: 7px;
+  color: #fff;
+  background: #3882F6;
+  border: 1px solid #3882F6;
+  border-radius: 3px;
+ }
+
+ .sign-up-cta {
+  border: 1px solid #fff;
+ }
+
+ .random-info {
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+ }
+
+.information {
+  display: flex;
+  align-self: center;
+  gap: 12px;
+ }
+
+ .card {
+  border: 2px solid #3882F6;
+  border-radius: 5px;
+  width: 80px;
+  height: 80px;
+ }
+
+ 
+ .quotes {
+  background: #E5E7EB;
+  font-size: 16px;
+  font-style: light italic;
+  color: #1F2937;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  padding: 50px;
+ }
+
+ .quote-author {
+  align-self: flex-end;
+ }
+ .cta {
+  margin: 30px 60px;
+  background: #3882F6;
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-around;
+ }
+
+ footer {
+  height: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+ }
