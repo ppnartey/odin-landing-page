@@ -106,8 +106,13 @@
   border-radius: 5px;
   width: 80px;
   height: 80px;
- }
 
+ }
+.card1, .card2,
+.card3, .card4 {
+  text-align: left;
+  font-size:smaller;
+}
  
  .quotes {
   background: #E5E7EB;
